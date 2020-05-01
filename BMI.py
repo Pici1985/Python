@@ -1,22 +1,11 @@
-print("Please enter your height in meters, using '.' as decimal.")
-print()
-height = float(input())
-print()
-print("Please enter your weight in kilograms, using '.' as decimal")
-print()
-weight = float(input())
-print()
-BMI = weight // (height*height)
+olivabogyo = True if input("Kell oliva? i/n") == "i" else False
+pepperoni = True if input("Kell pepperoni? i/n") == "i" else False
+sonka = True if input("Kell sonka? i/n") == "i" else False
 
-if BMI < 18:
-    print("Your BMI is {}".format(BMI), "You are underweight!")
-elif BMI < 24:
-    print("Your BMI is {}".format(BMI), "Your BMI is healthy!")
+if (olivabogyo and pepperoni) and (pepperoni and not sonka):
+    print("Fincsike...")
+
+
 else:
-    print("Your BMI is {}".format(BMI), "Your are overweight!")
-
-#def BMI(height, weight,):
-#    BMI = weight // (height*height)  #(height**2) squared
-#    print("Your BMI is {}".format(BMI))
-#
-#BMI(1.52,63)
+    print("miaszar...")
+    
