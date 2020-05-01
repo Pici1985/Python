@@ -8,4 +8,5 @@ if (olivabogyo and pepperoni) and (pepperoni and not sonka):
 
 else:
     print("miaszar...")
-    
+
+print("a most ezt a szart itt atirtam elkuddom a gecibe!!!")
