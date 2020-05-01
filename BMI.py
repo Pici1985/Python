@@ -10,3 +10,5 @@ else:
     print("miaszar...")
 
 print("a most ezt a szart itt atirtam elkuddom a gecibe!!!")
+
+print("ijj ) #szerinted az így jó?????????
